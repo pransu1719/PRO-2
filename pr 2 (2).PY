@@ -15,7 +15,7 @@ while True:
                rawnumber=int(input("Enter the number of row for the pattern:"))
                print()
                for i in range(1,rawnumber+1):
-                for _ in range(1,5-i):
+               for _ in range(1,5-i):
                   print(" ",end=" ")
                for j in range(1,i+1):
                    print("*",end=" ")
@@ -30,7 +30,7 @@ while True:
                     print(i,end=" ")
                     print(":- number is even number")
                     print()
-                else:
+               else:
                     print(i,end=" ")
                     print(":- number is odd number")
                     print()
