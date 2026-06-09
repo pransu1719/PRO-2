@@ -15,25 +15,25 @@ while True:
                rawnumber=int(input("Enter the number of row for the pattern:"))
                print()
                for i in range(1,rawnumber+1):
-               for _ in range(1,6-i):
-                  print(" ",end=" ")
-               for j in range(1,i+1):
-                   print("*",end=" ")
-               print()
+                   for _ in range(1,6-i):
+                      print(" ",end=" ")
+                   for j in range(1,i+1):
+                       print("*",end=" ")
+                   print()
 
         case 2:
                start = int(input("Enter the starting number:"))
                end =   int(input("Enter the ending number:"))
                x = 0
                for i in range(start,end+1):
-            if i %2==0:
-                    print(i,end=" ")
-                    print(":- number is even number")
-                    print()
-            else:
-                    print(i,end=" ")
-                    print(":- number is odd number")
-                    print()
+                    if i %2==0:
+                        print(i,end=" ")
+                        print(":- number is even number")
+                        print()
+                    else:
+                        print(i,end=" ")
+                        print(":- number is odd number")
+                        print()
 
         case 3:    
                    print("exiting program.........")
